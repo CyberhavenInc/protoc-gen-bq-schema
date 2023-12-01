@@ -154,6 +154,10 @@ func convertField(
 			field.Type = opt.TypeOverride
 		}
 
+		if len(opt.ModeOverride) > 0 {
+			field.Mode = opt.ModeOverride
+		}
+
 		if len(opt.Name) > 0 {
 			field.Name = opt.Name
 		}

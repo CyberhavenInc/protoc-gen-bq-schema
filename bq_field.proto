@@ -44,6 +44,9 @@ message BigQueryFieldOptions {
 
   // Optionally add PolicyTag for a field in BigQuery schema.
   string policy_tags = 6;
+
+  // Optionally add a mode for a field in BigQuery schema.
+  string mode_override = 7;
 }
 
 
